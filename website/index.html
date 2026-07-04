@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hide On Cloud | Hide Smart. Deploy Anywhere.</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="loader-cloud"></div>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="brand" aria-label="Hide On Cloud home">
+        <span class="brand-icon">
+          <svg viewBox="0 0 120 92" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="cloudGrad" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#00d4ff" />
+                <stop offset="1" stop-color="#004cff" />
+              </linearGradient>
+              <linearGradient id="shieldGrad" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#ffffff" />
+                <stop offset="1" stop-color="#0a84ff" />
+              </linearGradient>
+            </defs>
+            <path d="M33 77h62c13 0 23-10 23-23 0-12-9-22-21-23C92 13 76 0 57 0 39 0 24 12 19 29 8 32 0 42 0 54c0 13 10 23 23 23h10Z" fill="url(#cloudGrad)"/>
+            <path d="M60 14 95 31v19c0 22-14 36-35 42-21-6-35-20-35-42V31l35-17Z" fill="#06142f" opacity=".92" stroke="url(#shieldGrad)" stroke-width="5"/>
+            <path d="M60 27c-13 9-20 21-20 37 6-9 13-13 20-13s14 4 20 13c0-16-7-28-20-37Z" fill="#0b63ff"/>
+            <path d="M45 63c7-4 12-4 15 1 3-5 8-5 15-1-6 9-24 9-30 0Z" fill="#00d4ff"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>HIDE <span>ON</span> CLOUD</strong>
+          <small>HIDE SMART. DEPLOY ANYWHERE.</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="btn btn-primary nav-cta" href="#contact">Get Started <span>→</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="world-map" aria-hidden="true"></div>
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <p class="eyebrow">SECURE. SCALABLE. CLOUD-NATIVE.</p>
+          <h1>HIDE SMART.<br />DEPLOY <span>ANYWHERE.</span></h1>
+          <p class="hero-text">
+            Secure, scalable and cloud-native solutions designed to protect your applications and accelerate your business.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get Started <span>→</span></a>
+            <a class="btn btn-outline" href="#about">Learn More <span>→</span></a>
+          </div>
+
+          <div class="hero-badges">
+            <div class="badge"><span class="line-icon">⌁</span><strong>Secure</strong><small>Security built-in<br />from the ground up</small></div>
+            <div class="badge"><span class="line-icon">ϟ</span><strong>Fast</strong><small>High performance<br />and low latency</small></div>
+            <div class="badge"><span class="line-icon">☁</span><strong>Scalable</strong><small>Built to grow<br />with your needs</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-hidden="true">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+          <div class="platform"></div>
+          <div class="cloud-visual">
+            <div class="cloud-shape"></div>
+            <div class="shield-visual">
+              <svg viewBox="0 0 180 220">
+                <path d="M90 8 162 42v53c0 61-38 99-72 116-34-17-72-55-72-116V42L90 8Z" fill="#06142f" stroke="#eaf6ff" stroke-width="9"/>
+                <path d="M90 31c-31 21-48 52-48 95 14-22 31-33 48-33s34 11 48 33c0-43-17-74-48-95Z" fill="#065dfb"/>
+                <path d="M57 145c20-10 31-10 33 2 2-12 13-12 33-2-14 23-52 23-66 0Z" fill="#04d9ff"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container services-layout">
+        <div class="section-intro reveal">
+          <p class="eyebrow">OUR SERVICES</p>
+          <h2>Everything you need<br />in the cloud</h2>
+          <p>Powerful and reliable cloud services to build, deploy and scale your applications with confidence.</p>
+          <a class="text-link" href="#solutions">Explore all services <span>→</span></a>
+        </div>
+
+        <div class="service-card reveal delay-1">
+          <div class="card-icon">▦</div>
+          <h3>Cloud Infrastructure</h3>
+          <p>High availability infrastructure designed for performance, security and scale.</p>
+          <a href="#contact">Learn more <span>→</span></a>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="card-icon">⌁</div>
+          <h3>Security & Compliance</h3>
+          <p>Enterprise-grade security solutions to keep your data and applications protected.</p>
+          <a href="#contact">Learn more <span>→</span></a>
+        </div>
+
+        <div class="service-card reveal delay-3">
+          <div class="card-icon">◴</div>
+          <h3>Performance & Scale</h3>
+          <p>Global network, CDN and optimization services for blazing fast experiences.</p>
+          <a href="#contact">Learn more <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="container stats reveal">
+        <div><span>☁</span><strong data-counter="99.99">0</strong><p>Uptime Guarantee</p></div>
+        <div><span>◎</span><strong data-counter="150">0</strong><p>Edge Locations</p></div>
+        <div><span>♙</span><strong data-counter="10">0</strong><p>Happy Clients</p></div>
+        <div><span>▣</span><strong>24/7</strong><p>Expert Support</p></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container split-layout">
+        <div class="reveal">
+          <p class="eyebrow">ABOUT HIDE ON CLOUD</p>
+          <h2>Cloud solutions with security at the core.</h2>
+        </div>
+        <div class="reveal delay-1">
+          <p>
+            Hide On Cloud is a cloud-first concept focused on building secure, scalable and reliable cloud architectures using AWS best practices.
+          </p>
+          <p>
+            This website is part of an AWS Cloud Portfolio project deployed using Amazon S3, CloudFront, ACM and Route 53.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="solutions section" id="solutions">
+      <div class="container">
+        <div class="center-intro reveal">
+          <p class="eyebrow">SOLUTIONS</p>
+          <h2>Built for modern cloud workloads</h2>
+        </div>
+        <div class="solution-grid">
+          <article class="mini-card reveal"><h3>Static Hosting</h3><p>Secure static websites with private S3 buckets and CloudFront.</p></article>
+          <article class="mini-card reveal delay-1"><h3>Global Delivery</h3><p>Low latency content delivery powered by edge locations.</p></article>
+          <article class="mini-card reveal delay-2"><h3>Security First</h3><p>HTTPS, least privilege, private origins and controlled access.</p></article>
+          <article class="mini-card reveal delay-3"><h3>Cost Control</h3><p>Serverless services, AWS Budgets and optimized architecture.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="container price-box reveal">
+        <div>
+          <p class="eyebrow">PRICING</p>
+          <h2>Low-cost, serverless and scalable.</h2>
+          <p>This project uses AWS services that are ideal for learning and low-traffic production websites.</p>
+        </div>
+        <a class="btn btn-primary" href="#contact">Start Project <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-card reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Ready to deploy securely?</h2>
+        <p>Connect with Hide On Cloud and start building secure cloud solutions.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://github.com/Sleitter" target="_blank" rel="noreferrer">View GitHub <span>→</span></a>
+          <a class="btn btn-outline" href="mailto:lowenskin23@gmail.com">Email Me <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-layout">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-icon small">
+            <svg viewBox="0 0 120 92"><path d="M33 77h62c13 0 23-10 23-23 0-12-9-22-21-23C92 13 76 0 57 0 39 0 24 12 19 29 8 32 0 42 0 54c0 13 10 23 23 23h10Z" fill="#0a84ff"/><path d="M60 14 95 31v19c0 22-14 36-35 42-21-6-35-20-35-42V31l35-17Z" fill="#06142f" stroke="#eaf6ff" stroke-width="5"/></svg>
+          </span>
+          <span class="brand-copy"><strong>HIDE <span>ON</span> CLOUD</strong></span>
+        </a>
+        <p>We help businesses build, secure and scale in the cloud with the best of AWS.</p>
+      </div>
+      <div><h4>Company</h4><a href="#about">About Us</a><a href="#services">Services</a><a href="#contact">Contact</a></div>
+      <div><h4>Resources</h4><a href="#solutions">Solutions</a><a href="#pricing">Pricing</a><a href="https://github.com/Sleitter" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Security</a></div>
+    </div>
+    <p class="copyright">© 2026 Hide On Cloud. All rights reserved.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>
