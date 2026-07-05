@@ -1,6 +1,8 @@
 # ☁️ Hide On Cloud
 
-> Project 01 — Secure Static Website on AWS
+> **Project 01 — Secure Static Website on AWS**
+
+A secure static website deployed on AWS using Amazon S3, CloudFront, Route 53, ACM, and Origin Access Control (OAC).
 
 ---
 
@@ -8,31 +10,60 @@
 
 **Hide On Cloud** is the first project in my AWS Cloud Portfolio.
 
-Hide On Cloud is a fictional cloud security company created as part of my AWS Cloud Portfolio. This project demonstrates how to deploy a secure static website using AWS services.
+This project demonstrates how to deploy a production-style static website using AWS best practices, including a private Amazon S3 bucket, CloudFront CDN, HTTPS, a custom domain, and secure origin access.
+
+---
+
+## Live Demo
+
+🌐 https://hideoncloud.net
 
 ---
 
 ## Architecture
 
-```
-Internet
-     │
-     ▼
-CloudFront
-     │
-Origin Access Control (OAC)
-     │
-     ▼
-Private Amazon S3 Bucket
-```
+![Architecture](architecture/aws-architecture-v1.1.png)
 
 ---
+
 
 ## AWS Services
 
 - Amazon S3
 - Amazon CloudFront
+- Amazon Route 53
+- AWS Certificate Manager (ACM)
 - Origin Access Control (OAC)
+
+---
+
+## Current Version
+
+**v1.1**
+
+### Features
+
+- Static Website Hosting
+- Private Amazon S3 Bucket
+- Amazon CloudFront CDN
+- Origin Access Control (OAC)
+- Custom Domain (`hideoncloud.net`)
+- HTTPS with AWS Certificate Manager
+- DNS Resolution with Amazon Route 53
+
+---
+
+## Roadmap
+
+- [x] Static Website
+- [x] Private Amazon S3 Bucket
+- [x] CloudFront Distribution
+- [x] Origin Access Control (OAC)
+- [x] Custom Domain
+- [x] HTTPS (ACM)
+- [x] Route 53 DNS
+- [ ] CI/CD with GitHub Actions
+- [ ] Infrastructure as Code (Terraform)
 
 ---
 
@@ -42,35 +73,12 @@ Private Amazon S3 Bucket
 .
 ├── website/
 ├── architecture/
+├── screenshots/
 ├── docs/
 └── README.md
 ```
 
 ---
-
-## Current Version
-
-**v1.0**
-
-### Features
-
-- Responsive Landing Page
-- Private Amazon S3 Bucket
-- Amazon CloudFront
-- HTTPS via CloudFront
-
----
-
-## Next Version (v1.1)
-
-- Custom Domain
-- Amazon Route 53
-- AWS Certificate Manager
-
----
-## Live Demo
-
-https://d3lk6x5u4gh3r5.cloudfront.net/
 
 ## Author
 
