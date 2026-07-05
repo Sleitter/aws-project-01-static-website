@@ -68,6 +68,9 @@ Private Amazon S3 Bucket
 - AWS Certificate Manager
 
 ---
+## Live Demo
+
+https://d3lk6x5u4gh3r5.cloudfront.net/
 
 ## Author
 
